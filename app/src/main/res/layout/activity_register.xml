@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="REGISTER"
+        android:textAlignment="center"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Note: Admin approval is needed before accessing the account."
+        android:textAlignment="center"
+        android:textColor="#C62828"
+        android:textStyle="bold"
+        android:textSize="15sp" />
+
+
+    <EditText
+        android:id="@+id/edtUsername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Username"
+        android:layout_marginLeft="50px"
+        android:layout_marginRight="50px"/>
+
+    <EditText
+        android:id="@+id/edtPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="50px"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:layout_marginLeft="50px"
+        android:layout_marginRight="50px"/>
+
+    <EditText
+        android:id="@+id/edtPassword2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="50px"
+        android:hint="Repeat password"
+        android:inputType="textPassword"
+        android:layout_marginLeft="50px"
+        android:layout_marginRight="50px"/>
+
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="50px"
+        android:text="Register"
+        android:textSize="20sp"
+        android:padding="30px"
+        android:textStyle="bold"
+        app:cornerRadius="5sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Already have an Account?"
+        android:textAlignment="center"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btnLogin"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10px"
+        android:text="LOGIN"
+        android:textSize="20dp"
+        android:textColor="#1565C0"
+        android:textStyle="bold"
+        app:cornerRadius="5sp" />
+
+</LinearLayout>

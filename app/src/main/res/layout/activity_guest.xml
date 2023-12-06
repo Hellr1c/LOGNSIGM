@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GuestActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="GUEST INFO"
+            android:textAlignment="center"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/edtUsername"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Username"
+            android:layout_marginLeft="50px"
+            android:layout_marginRight="50px"/>
+
+        <EditText
+            android:id="@+id/edtfn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="First name"
+            android:layout_marginLeft="50px"
+            android:layout_marginRight="50px"/>
+
+        <EditText
+            android:id="@+id/edtmn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Middle name"
+            android:layout_marginLeft="50px"
+            android:layout_marginRight="50px"/>
+
+        <EditText
+            android:id="@+id/edtln"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Last name"
+            android:layout_marginLeft="50px"
+            android:layout_marginRight="50px"/>
+
+        <EditText
+            android:id="@+id/edtAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Address"
+            android:layout_marginLeft="50px"
+            android:layout_marginRight="50px"/>
+
+        <EditText
+            android:id="@+id/edtContact"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50px"
+            android:layout_marginRight="50px"
+            android:hint="Contact"
+            android:inputType="phone" />
+
+        <EditText
+            android:id="@+id/edtEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50px"
+            android:layout_marginRight="50px"
+            android:hint="Email address"
+            android:inputType="textEmailAddress" />
+<!--
+        <EditText
+            android:id="@+id/edtPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Current password"
+            android:inputType="textPassword"
+            android:layout_marginLeft="50px"
+            android:layout_marginRight="50px"/>
+
+        <EditText
+            android:id="@+id/edtPassword2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="New password"
+            android:inputType="textPassword"
+            android:layout_marginLeft="50px"
+            android:layout_marginRight="50px"/>
+
+        <EditText
+            android:id="@+id/edtPassword3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Repeat new password"
+            android:inputType="textPassword"
+            android:layout_marginLeft="50px"
+            android:layout_marginRight="50px"/>
+-->
+        <Spinner
+            android:id="@+id/spinGender"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50px"
+            android:layout_marginRight="50px" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Edit only the info you want to edit."
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btnEdit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="50px"
+            android:text="Edit Info"
+            android:textSize="20sp"
+            android:padding="30px"
+            android:textStyle="bold"
+            app:cornerRadius="5sp" />
+
+</LinearLayout>
+</ScrollView>
